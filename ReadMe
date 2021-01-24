@@ -1,0 +1,15 @@
+To Begin
+Install Cypress
+** npx cypress install ***
+
+Install Node_modules and update the pacjkages
+** npm install **
+
+******
+ npm install faker --save-dev
+
+To run the test
+** npm test ***
+
+To open cypress integration UI
+npx cypress open

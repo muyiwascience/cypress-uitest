@@ -1,0 +1,25 @@
+{
+  "name": "wonderbil",
+  "version": "1.0.0",
+  "description": "frontend end to end test",
+  "main": "index.js",
+  "scripts": {
+    "headless": "npx cypress run",
+    "test": "npx cypress run --browser chrome"
+  },
+  "author": "Olu",
+  "license": "ISC",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": "cypress/integration"
+  },
+  "devDependencies": {
+    "Faker": "^0.7.2",
+    "cypress": "^5.2.0",
+    "cypress-cucumber-preprocessor": "^2.5.5",
+    "faker": "^5.1.0",
+    "mochawesome": "^6.1.1",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^5.1.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "baseUrl": "https://my.wonderbill.com/register",
+  "testFiles": "**/*.feature",
+
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/reports/mochawesome-report",
+    "reportFilename": "report",
+    "overwrite": false,
+    "html": true,
+    "json": true,
+    "charts": true
+  },
+  "video": false
+}
