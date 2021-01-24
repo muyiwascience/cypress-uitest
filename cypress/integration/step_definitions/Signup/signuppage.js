@@ -1,5 +1,6 @@
 
-var faker = require('faker');
+import faker from 'faker'
+
 export class Signup_Page{
 
     enterName(){
