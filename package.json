@@ -20,8 +20,5 @@
     "mochawesome": "^6.1.1",
     "mochawesome-merge": "^4.2.0",
     "mochawesome-report-generator": "^5.1.0"
-  },
-  "dependencies": {
-    "faker": "^5.1.0"
   }
 }
