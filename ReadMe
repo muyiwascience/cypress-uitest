@@ -11,8 +11,9 @@ Install dependencies
 ** npm install **
 
 ******
-Note: Install faker directly; I added it to Packagejson but it is flaky when you do npm iqnstall.
-npm install faker --save-dev
+Note: Install faker directly; I added it to Packagejson but it is flaky when you do npm install. The faker version seems to be an issue.
+
+*** npm install faker --save-dev **
 
 ******
 To run the test
