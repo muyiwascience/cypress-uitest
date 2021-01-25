@@ -13,3 +13,5 @@ screenshots/*
 #tests/lighthouse-report.html
 
 
+/cypress/screenshots
+

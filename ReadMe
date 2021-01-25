@@ -1,15 +1,22 @@
-To Begin
+Set Up
+******
 Install Cypress
 ** npx cypress install ***
 
-Install Node_modules and update the pacjkages
+
+** Download or clone this repo
+
+******
+Install dependencies
 ** npm install **
 
 ******
  npm install faker --save-dev
 
+******
 To run the test
 ** npm test ***
 
+******
 To open cypress integration UI
 npx cypress open
